@@ -39,6 +39,11 @@ filename_stringers= '1_2_1D'
 result_file = 'Exercise_1_1_test.xlsx'
 ############################################################################################
 
+'''
+this is a test
+'''
+
+git_test = 7
 
 os.chdir("..")
 badir =  os. getcwd()  
