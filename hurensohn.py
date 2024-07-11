@@ -41,7 +41,7 @@ result_file = 'Exercise_1_1_test.xlsx'
 
 
 
-os.chdir("..")
+os.chdir("../..")
 badir =  os. getcwd()  
 os.chdir("results_1_2")
 femdir = os.getcwd()
