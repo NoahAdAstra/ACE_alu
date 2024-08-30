@@ -18,13 +18,16 @@ m_wave = 3              ###different for all
 n_wave= 1
 pi = 3.14159
 
+z_ofs_stringer = 11.55
+z_ofs_pannel = 8.5/2
+new_mass = 29.81 #kg
 
-b_stringer = 37.5 #mm
-t_stringer = 2 #mm
+b_stringer = 47.75#old 37.5 #mm
+t_stringer = 3 #old 2 mm
 
 r_qyro = 6.9014403 #10.3609        ###difernet for all
-lambda_crit = 87.812416
-I_comb = 50923.234
+lambda_crit = 82.580022 # old 87.812416
+I_comb = 178659.67 # old 50923.234
 
 
 DIM1 = 70
@@ -34,9 +37,9 @@ DIM4 = 3
 
 width_web = DIM2-DIM3
 
-filename_panels= '1_2_2D_3D'
-filename_stringers= '1_2_1D'
-result_file = 'Exercise_1_1_test.xlsx'
+filename_panels= '2D_3D_new'
+filename_stringers= '1D_new'
+result_file = 'Exercise_test.xlsx'
 ############################################################################################
 
 
